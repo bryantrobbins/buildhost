@@ -25,3 +25,7 @@ I'm adding a super simple Web service example in Go, and a README.
 ## The Go AWS ECS API
 
 Read this: http://godoc.org/github.com/awslabs/aws-sdk-go/service/ecs
+
+## The Docker Hub Webhook Format
+
+https://docs.docker.com/docker-hub/builds/#webhooks
