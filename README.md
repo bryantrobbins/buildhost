@@ -10,6 +10,8 @@ I'm going to try to use Go to do this. Because the webservice itself is relative
 I think I can write a single method to catch the request, do some AWS API calls, and respond
 with status.
 
+AWS has a Go API, but it's not necessarily production ready. Thankfully, neither is this server. ;)
+
 I want to run this service in a Docker container (YO DAWG), and I'll probably assume that this
 container is itself running on ECS (but of course, that's not stricly necessary ... this is
 Docker we're talking about).
@@ -19,3 +21,7 @@ Docker we're talking about).
 ## Initial Commit
 
 I'm adding a super simple Web service example in Go, and a README.
+
+## The Go AWS ECS API
+
+Read this: http://godoc.org/github.com/awslabs/aws-sdk-go/service/ecs
